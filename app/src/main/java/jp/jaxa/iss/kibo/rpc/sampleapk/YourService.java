@@ -30,7 +30,6 @@ import java.util.List;
 import java.util.Map;
 import java.lang.Math;
 /**
- *
  * Class meant to handle commands from the Ground Data System and execute them in Astrobee
  */
 
@@ -128,6 +127,7 @@ public class YourService extends KiboRpcService {
         Mat AR = new Mat();
         Imgproc.undistort(crop_pad_ar, AR, cameraMatrix, distCoeffs);
 
+        // add some comment
         int newAR_x = 0;
         int newAR_y = 0;
 
